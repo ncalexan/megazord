@@ -1,0 +1,13 @@
+[package]
+name = "megazord"
+version = "0.1.0"
+authors = ["Nick Alexander <nalexander@mozilla.com>"]
+
+
+[lib]
+name = "megazord"
+crate-type = ["cdylib"]
+
+[dependencies]
+foo = { path = "foo" }
+bar = { path = "bar" }
